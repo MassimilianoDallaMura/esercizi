@@ -1,0 +1,88 @@
+/* IMPOSTAZIONI GENERALI */
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #393d41 ;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: 'Montserrat';
+    font-weight: bold;
+    color: #25a2c3;
+    font-size: 1.2rem;
+    font: bold;
+    line-height: 1.5;
+}
+
+h4 {
+    color: #25a2c3;
+}
+
+
+
+
+button {
+    margin-bottom: 1rem;
+    color: white;
+    background: #f04c2f;
+}
+
+#arrotondato {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#bianco {color: white;}
+
+
+
+/* HEADER */
+
+header {
+    background: black;
+   
+}
+
+/* MAIN */
+
+main {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;  
+}
+
+
+/* ASIDE */
+
+    aside {background-color: #f04c2f;
+    }
+    aside
+
+
+/* SECTION */
+
+article{
+    border: 2px, solid;
+    border-color: #dee1e3;
+    padding: 30px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #25a2c3;
+}
+
+span {
+    color: white;
+}
