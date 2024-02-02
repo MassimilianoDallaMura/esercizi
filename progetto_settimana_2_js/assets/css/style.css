@@ -1,0 +1,128 @@
+/* Your styles here */
+
+body {
+    color: white;
+}
+
+main {
+    background-color: #e9edee;
+    padding: 50px;
+}
+
+nav {
+    padding-left: 50px;
+}
+
+section {
+    padding: 15px;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 10;
+}
+
+
+.padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.immagini4 {
+    display: inline-block;
+    background-size: cover;
+    height: 150px;
+    width: auto;
+}
+
+.img1 {
+    background-image: url("../images/img_1.jpg");
+    height: auto;
+}
+
+.img2 {
+    background-image: url("../images/img_2.jpg");
+    height: auto;
+}
+
+.img3 {
+    background-image: url("../images/img_3.jpg");
+}
+
+
+.img4 {
+    background-image: url("../images/img_4.jpg");
+    width: 60;
+    height: 150px;
+}
+
+.img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+.textBianco {
+    color: white;
+}
+
+.sfondoBianco {
+    background-color: white;
+}
+
+.testoNero {
+    color: black;
+}
+
+.inizialiMaiuscole {
+    text-transform: capitalize;
+}
+
+.coloreLink {
+    color: #185c65;
+}
+
+.margine {
+    margin: 10px;
+}
+
+.sfondoScuro {
+    background-color: #222f3f;
+}
+
+.sfondoChiaro {
+    background-color: #35475b;
+}
+
+.sfondoArancio {
+    background: #f56600;
+}
+
+.sfondoImmagine {
+    background-image: url(../images/bg-image.png);
+}
+
+.testoCentrato {
+    text-align: center;
+}
+
+.bordoTondo {
+    border-radius: 20%;
+}
+
+
+.inline {
+    display: inline;
+}
