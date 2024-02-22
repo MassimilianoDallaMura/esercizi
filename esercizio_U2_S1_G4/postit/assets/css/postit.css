@@ -1,0 +1,82 @@
+html,
+body {
+
+    box-sizing: border-box;
+    font-family: 'Indie-Flower', sans-serif;
+    background-color: rgb(116, 38, 38);
+}
+
+
+
+
+#container {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+
+.task {
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+
+.riga1,
+.riga2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+
+}
+
+#task1,
+#task5,
+#task7 {
+    background-color: #e1e1b5;
+    transform: rotate(-5deg);
+}
+
+#task2,
+#task4,
+#task8 {
+    background-color: green;
+    transform: rotate(7deg);
+}
+
+#task3,
+#task6 {
+    background-color: blueviolet;
+    transform: rotate(-10deg);
+}
+
+
+h2 {
+    text-transform:capitalize;
+    font-size: 36px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.task:hover {
+    transform: rotateX(0deg)!important;
+}
+
+
