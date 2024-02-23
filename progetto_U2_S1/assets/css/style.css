@@ -1,0 +1,180 @@
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 0.2px solid rgba(0, 0, 0, 0.200);
+    background-color: #ffc017;
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
+
+}
+
+header div,
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav ul li {
+    margin: 8px;
+}
+
+
+button.btn1 {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 20px;
+    margin-left: 5px;
+
+}
+
+main {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.200);
+    border-right: 1px solid rgba(0, 0, 0, 0.200);
+    border-left: 1px solid rgba(0, 0, 0, 0.200);
+    background-color: #ffc017;
+    height: 370px;
+
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 18%;
+    align-self: stretch;
+   
+
+}
+
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    margin: 0;
+    padding-top: 70px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 1'';
+    font-style: normal;
+    font-size: 1em;
+    margin: 0;
+    margin-top: 30px;
+}
+
+button.btn2 {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px;
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+main div p {
+    width: 39%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#container {
+    margin: 0 10%;
+    text-transform: uppercase;
+    font-size: 8px;
+}
+
+#articoli {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.articolo {
+    display: flex;
+    width: 40%;
+    display: flex;
+    flex-basis: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    margin-right: 20px; 
+}
+
+.numero {
+    width: 20%;
+    font-size: 35px;
+    font-weight: bold;
+    opacity: 0.2;
+    margin-top: -15px;
+}
+
+.titoletto {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.autore {
+    display: flex;
+    align-items: center; 
+}
+
+img.fotoAutore {
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 20px;
+}
+
+h3 {
+    font-size: 13px;
+}
+
+p.nomeAutore {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+
+section {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.200);
+}
+
+article {
+    float: left; /* Posiziona l'articolo a sinistra */
+    width: calc(50% - 10px); /* Larghezza del 50% meno lo spazio tra i due elementi */
+    margin-right: 20px; /* Aggiunge spazio tra l'articolo e l'aside */
+}
+
+aside {
+    float: right; /* Posiziona l'aside a destra */
+    width: calc(50% - 10px); /* Larghezza del 50% meno lo spazio tra i due elementi */
+}
