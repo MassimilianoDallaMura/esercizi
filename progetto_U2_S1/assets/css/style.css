@@ -1,0 +1,311 @@
+
+/* DA GUARDARE CON SCHERMO A 1200*/
+
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    border: 0.2px solid rgba(0, 0, 0, 0.200);
+    background-color: #ffc017;
+    position: sticky;
+    top: 0;
+    z-index: 1000
+}
+
+
+header div,
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+
+
+nav ul li {
+    margin: 8px;
+
+}
+
+
+button.btn1 {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 20px;
+    margin-left: 5px;
+
+
+
+}
+
+main {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.200);
+    border-right: 1px solid rgba(0, 0, 0, 0.200);
+    border-left: 1px solid rgba(0, 0, 0, 0.200);
+    background-color: #ffc017;
+    height: 500px;
+
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: stretch;
+    margin-left: 10%;
+
+
+
+}
+
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7rem;
+    margin: 0;
+    padding-top: 70px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 1'';
+    font-style: normal;
+    font-size: 1em;
+    margin: 0;
+    margin-top: 30px;
+}
+
+button.btn2 {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px;
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 50px;
+    width: 30%;
+
+}
+
+main div p {
+    width: 39%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+section {
+    height: 340px;
+}
+
+#container {
+    margin: 10px 10%;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-size: 12px;
+    
+}
+
+#articoli {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10%;
+}
+
+.articolo {
+    display: flex;
+    width: 30%;
+}
+
+.numero {
+    width: 20%;
+    font-size: 35px;
+    font-weight: bold;
+    opacity: 0.05;
+    margin-top: -15px;
+}
+
+.titoletto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+
+.autore {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+img.fotoAutore {
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+h3 {
+    font-size: 13px;
+}
+
+p.nomeAutore {
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+
+section {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.200);
+}
+
+.container2 {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.articoli2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    overflow-x: auto;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+    justify-content: space-between;
+   
+}
+
+.autore2 {
+    display: flex;
+    align-items: center;
+}
+
+.nomeAutore2 {
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+.info2 {
+    margin-top: 10px;
+}
+
+.articoletto {
+    width: 50%;
+}
+
+.titolo2 h2{
+    margin-bottom: -30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.img {
+   width: 30%;
+    
+}
+
+.img2 {
+    margin-top: 25px;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 5%;
+}
+
+
+.footer {
+    margin-left: 30px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+}
+
+
+.titoletto2 h4{
+       font-weight: 400;
+       font-size: 12px;
+       text-transform: uppercase;
+       
+}
+
+
+
+.btn3 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90px;
+    width: 100%;
+    
+    
+}
+
+.bordo {
+height: 130px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.btn3 button {
+    background: transparent;
+    font-size: 13px;
+    height: 30px;
+    margin: 3px; 
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+
+
+ol.menu2 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 5%;
+    padding: 0
+
+    
+}
+
+ol.menu2 li {
+    font-size: 14px;
+    margin: 5px;
+   
+}
+
+
